@@ -1,0 +1,246 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+img{
+    width: 100%;
+}
+body{
+    background: #212121;
+}
+nav{
+    background: white;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+/* Media Querires-Mobile First Approach */
+@media(min-width:300px){
+    nav img{
+        height: 8vh;
+        width: auto;
+        margin-right: 1rem;
+    }
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 2vh 0;
+    
+}
+nav h3{
+    color: #212121;
+    font-weight: bolder;
+}
+.one h4,p{
+text-align: center;
+padding: 1.5vh 0;
+}
+.one h4{
+    margin-top: 5vh;
+}
+.one img{
+    padding-top: 3vh;
+    height: 60vh;
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+.two {
+background: white;
+padding: 1.5rem;
+width: 70%;
+margin:5vh auto;
+border-radius: 12px;
+
+}
+.two label{
+    color:#212121;
+    font-size: 1.1rem;
+
+}
+.two input[type="text"]{
+    border: none;
+    padding: 0.8rem;
+    outline:none;
+    border-bottom: 1px solid #212121;
+    font-size:1.2rem;
+    width:90%;
+
+}
+.two input[type="radio"],input[type="checkbox"]{
+    margin-right: 1rem;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.checkboxes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.button{
+    background: #212121;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    width:98%;
+    padding: 0.9rem;
+    border-radius: 12px;
+    margin-top: 3vh;
+}
+.equipment_list h3{
+    
+    text-align: center;
+
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.card{
+    background-color: white;
+    border-radius: 12px;
+    padding: 0.5rem;
+    margin: 1.5rem;
+}
+
+.segmentA,.segmentB{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.segmentA h3{
+    color: #212121;
+    text-align: center;
+    padding-top: 4vh;
+}
+.segmentA img{
+    width: 70%;
+    
+
+}
+.segmentB{
+    background: #212121;
+}
+
+.segmentB h3{
+    
+    text-align: center;
+    padding-top: 4vh;
+}
+.segmentB img{
+    width: 70%;
+
+}
+
+}
+@media(min-width:700px)
+{
+    .flex img{
+        height: 8rem;
+    }
+
+    .flex h3{
+font-size: 1.8rem;
+    }
+    .one h4,p{
+        font-size: 2rem;
+
+    }
+
+    .equipment_list h3{
+        font-size: 2rem;
+    }
+    .cards{
+        margin: 4.5rem;
+    }
+    .segments{
+        display: flex;
+    }
+    .segmentA img{
+        width:35vh;
+        height: 30vh;
+        margin: 0.5rem;
+    }
+    .segmentB img{
+        width:35vh;
+        height: 30vh;
+    }}
+
+    @media(min-width:900px){
+        nav{
+            justify-content: left;
+            padding-left: 10vh;
+        }
+.one h4,p{
+    display: none;
+}
+.hero{
+    padding-top: 10vh;
+display: flex;
+flex-direction: row-reverse;
+width: 90%;
+margin:0 auto;
+justify-content: space-between;
+}
+.two label{
+    font-size: 0.7rem;
+
+}
+.two input[type="text"]{
+    font-size: 0.7rem;
+}
+.two form{
+
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.two{
+    padding: 2rem;
+
+}
+.two button{
+    width: 100%;
+}
+.equipment_list h3{
+    font-size: 1rem;
+    margin-top: 8vh;
+}
+.cards{
+    grid-template-columns: repeat(4,1fr);
+}
+.segments{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.segmentA img{
+
+    width: 40%;
+}
+.segmentA h3{
+    
+font-size:1rem ;
+}
+.segmentB h3{
+    
+    font-size:1rem ;
+    }
+.segmentB img{
+
+    width: 40%;
+}
+
+
+
+
+
+
+    }
